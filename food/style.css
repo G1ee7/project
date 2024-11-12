@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff9ea;
+
+  background-size: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-content {
+  display: flex;
+  margin-left: 50px;
+  column-gap: 20px;
+  padding: 25px;
+}
+
+.menu-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link-active:hover {
+  text-decoration: underline; /* Добавление подчеркивания при наведении на ссылку */
+}
+
+.menu-list li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon img {
+  margin-right: 100px;
+}
+
+.servise {
+  background-color: #fff9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(image/elipse.png);
+  background-repeat: no-repeat;
+  background-position: 88%;
+}
+
+.hero {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.text {
+  color: #ffcb45;
+}
+
+.servise_info {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome_info p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.welcome_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.welcome_info h5 {
+  font-size: 19px;
+  opacity: 0.7;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-top: 40px;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.text_color {
+  color: #1d1d1d;
+  opacity: 0.7;
+}
+
+.main {
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+.main h1 {
+  font-size: 20px;
+}
+
+.main h1,
+.main p {
+  margin-top: 10px; /* Добавляем отступ сверху для текста */
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.text-font {
+  font-size: 22px;
+}
+
+.menu h6 {
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.card {
+  margin-right: 20px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 35px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  margin-right: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.reviews-content {
+  margin-top: 50px;
+  background-size: cover;
+}
+
+.reviews-content h1 {
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.req {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sign-up {
+  background-color: #ffcb45; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста на кнопке */
+  padding: 10px 20px; /* Отступы кнопки */
+  border-radius: 20px;
+  border: none; /* Убрать границу кнопки */
+  cursor: pointer; /* Изменение курсора при наведении на кнопку */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-content {
+  position: relative; /* Устанавливаем родительский элемент как относительно позиционированный */
+}
+
+.content-overlay {
+  position: absolute; /* Относительно позиционируемый контейнер для текста и кнопки */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Цвет фона с небольшой прозрачностью */
+  color: #fff;
+  padding: 20px;
+}
+
+.reviews-content img {
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px;
+}
+
+.contact_top {
+  border-bottom: 2px solid #1d1d1d;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(255, 155, 210, 0.15);
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_group label {
+  font-size: 16px;
+  color: #458ff6;
+  padding: 10px 0;
+  padding-top: 30px;
+}
+
+.input_group input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #458ff6;
+}
+
+.input_group input::placeholder {
+  color: #999;
+}
+
+.input_group button[type="submit"] {
+  margin: 30px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #458ff6;
+  border: 1px solid #458ff6;
+  border-radius: 6px;
+  color: #fff;
+}
+
+footer {
+  padding: 55px;
+  background-color: #fff9ea;
+  color: #1d1d1d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.footer_list p {
+  margin: 30px 0;
+}
+
+.footer_right {
+  display: flex;
+}
+
+.footer_list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer_list p {
+  margin: 20px 0;
+}
+
+.footer_list ul {
+  list-style: none;
+}
+
+.footer_list a {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+.footer_list ul li a {
+  display: block;
+  padding: 15px 20px;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.footer_list ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer_list p {
+  margin-left: 37px;
+}
